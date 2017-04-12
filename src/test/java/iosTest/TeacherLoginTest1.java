@@ -25,7 +25,7 @@ public class TeacherLoginTest1 {
         initialize = new InitializeDriver();
         // initializing driver object
         driverios = new IOSDriver(new URL("http://127.0.0.1:4723/wd/hub"), initialize.driverInitialize("10.1", "iPad mini4", "bfb13a751d799eb97d37dce5e398fe16c5c3fd44"));
-        //driverios = new IOSDriver(new URL("http://127.0.0.1:4725/wd/hub"), initialize.driverInitialize("9.3.3","iPad mini2","4d5a7ada1f9f8025019021777679610424440b68"));
+        //driverios = new IOSDriver(new URL("http://127.0.0.1:4723/wd/hub"), initialize.driverInitialize("9.3.3","iPad mini2","4d5a7ada1f9f8025019021777679610424440b68"));
         driverios.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     }
 
@@ -109,12 +109,12 @@ public class TeacherLoginTest1 {
             Thread.sleep(5000);//课件刷新
             //判断是否已下载
             if (i == 0) {
-                driverios.findElement(By.id("自动化测试需要")).click();
-                System.out.println("下载课件 自动化测试需要pdf");
+                driverios.findElement(By.id("appium测试")).click();
+                System.out.println("下载课件 appium测试pdf");
                 Thread.sleep(10000);//下载课件时间
             }
-            driverios.findElement(By.id("自动化测试需要")).click();
-            System.out.println("打开课件 自动化测试需要pdf");
+            driverios.findElement(By.id("appium测试")).click();
+            System.out.println("打开课件 appium测试pdf");
             Thread.sleep(5000);//打开课件时间
             //点击课件推送按钮
             driverios.findElement(By.id("推送")).click();
