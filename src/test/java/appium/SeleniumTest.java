@@ -32,11 +32,11 @@ public class SeleniumTest {
     @Test
     //public void testRegister(String username, String pwd, String realname, String classNum) throws Exception {
     public void testRegister() throws Exception {
-        driver.get("http://school.etiantian.com/dl910sxta/");
+        driver.get("http://school.etiantian.com/dl910/");
         driver.findElement(By.id("username")).clear();
         driver.findElement(By.id("username")).sendKeys("爱学派C");
         driver.findElement(By.id("password")).clear();
-        driver.findElement(By.id("password")).sendKeys("a11111");
+        driver.findElement(By.id("password")).sendKeys("a12345");
         driver.findElement(By.linkText("登　录")).click();
         Thread.sleep(3000);
         driver.findElement(By.linkText("更多应用")).click();
@@ -52,10 +52,10 @@ public class SeleniumTest {
             Thread.sleep(3000);
         }
         Thread.sleep(2000);
-        for (int i = 0; i < 4; i++) {
+        for (int i = 10; i < 60; i++) {
             driver.findElement(By.linkText("添加")).click();
             driver.findElement(By.id("username")).clear();
-            driver.findElement(By.id("username")).sendKeys("chanpinkaifa" + i);
+            driver.findElement(By.id("username")).sendKeys("sizhongkaifa" + i);
             //driver.findElement(By.id("username")).sendKeys(username);
             Thread.sleep(3000);
             driver.findElement(By.id("pass")).clear();
@@ -88,12 +88,12 @@ public class SeleniumTest {
             //driver.findElement(By.id("pass")).sendKeys(pwd);
             Thread.sleep(3000);
             driver.findElement(By.id("realname")).clear();
-            driver.findElement(By.id("realname")).sendKeys("四中网校开发" + i);
+            driver.findElement(By.id("realname")).sendKeys(i+"四中网校开发测试账号" );
             //driver.findElement(By.id("realname")).sendKeys(realname);
             Thread.sleep(3000);
             driver.findElement(By.xpath("//input[@value='学生']")).click();
             driver.findElement(By.id("stuno")).clear();
-            driver.findElement(By.id("stuno")).sendKeys("12345678900000000" + i);
+            driver.findElement(By.id("stuno")).sendKeys("123452156487845400" + i);
             Thread.sleep(2000);
             IsElementPresent isElementPresent1 = new IsElementPresent();
             int num = 0;
@@ -109,7 +109,7 @@ public class SeleniumTest {
                 num = num + 1;
                 System.out.println(num);
                 if(num >= 5){
-                    driver.findElement(By.id("stuno")).sendKeys("158751148944152154" + i);
+                    driver.findElement(By.id("stuno")).sendKeys("15487844878744548" + i);
                 }
             }while(true);
             Thread.sleep(3000);
@@ -119,12 +119,14 @@ public class SeleniumTest {
             WebElement grade = driver.findElement(By.id("sel_grade"));
             Thread.sleep(2000);
             Select selectgrade = new Select(grade);
-            selectgrade.selectByValue("高一");
+            selectgrade.selectByValue("高二");
             Thread.sleep(2000);
             WebElement cls = driver.findElement(By.id("sel_cls"));
             Thread.sleep(2000);
             Select selectcls = new Select(cls);
-            selectcls.selectByValue("1274997");
+            //selectcls.
+            Thread.sleep(2000);
+            selectcls.selectByValue("1262013");
             Thread.sleep(2000);
             driver.findElement(By.linkText("添 加")).click();
             driver.findElement(By.linkText("创 建")).click();

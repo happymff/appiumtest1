@@ -27,7 +27,9 @@ public class Driver {
         caps.setCapability("platform", "ANDROID");
         caps.setCapability("platformVersion", "5.1.1");
        // caps.setCapability("automationName","uiautomator2");
-        caps.setCapability("deviceName", "A02AECPB2CLTG");
+        //caps.setCapability("deviceName", "A02AECPB2CLTG");
+        caps.setCapability("deviceName", "  57b51c43");
+
         caps.setCapability("browserName", "");
         caps.setCapability("app", "");
         //caps.setCapability("autoWebview", "true");

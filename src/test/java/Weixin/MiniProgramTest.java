@@ -32,7 +32,8 @@ public class MiniProgramTest extends Driver{
         Thread.sleep(3000);
         driver.findElementByXPath("//*[@text='书库']").click();
         Set<String> contextNames = driver.getContextHandles();
-        Thread.sleep(1000);
+        //System.out.println(driver.getContextHandles());
+        Thread.sleep(5000);
         for (String contextName : contextNames) {
             System.out.println(contextName);
         }
