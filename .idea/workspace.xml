@@ -2,38 +2,171 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e28246db-877f-419e-9c12-20a622f54f02" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_codeborne_phantomjsdriver_1_3_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_19_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_9.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_3_5_7_Final.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_cssparser_cssparser_0_9_20.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_htmlunit_htmlunit_2_23.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_htmlunit_htmlunit_core_js_2_23.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_htmlunit_neko_htmlunit_2_23.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_5_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_io_9_2_15_v20160210.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_util_9_2_15_v20160210.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_api_9_2_15_v20160210.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_client_9_2_15_v20160210.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_common_9_2_15_v20160210.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_api_3_0_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chrome_driver_3_0_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_edge_driver_3_0_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_firefox_driver_3_0_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_ie_driver_3_0_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_java_3_0_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_opera_driver_3_0_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_remote_driver_3_0_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_safari_driver_3_0_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_support_3_0_1.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appiumtest.iml" afterPath="$PROJECT_DIR$/appiumtest.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Weixin/Driver.java" afterPath="$PROJECT_DIR$/src/test/java/Weixin/Driver.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Weixin/MiniProgramTest.java" afterPath="$PROJECT_DIR$/src/test/java/Weixin/MiniProgramTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/appium/SeleniumTest.java" afterPath="$PROJECT_DIR$/src/test/java/appium/SeleniumTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/iosTest/TeacherLoginTest.java" afterPath="$PROJECT_DIR$/src/test/java/iosTest/TeacherLoginTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/AppiumCommandInfo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/AppiumDriver.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/AppiumExecutionMethod.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/AppiumFluentWait.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/AppiumSetting.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/CommandExecutionHelper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/DefaultGenericMobileDriver.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/DefaultGenericMobileElement.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/DeviceActionShortcuts.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/DriverMobileCommand.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/ErrorCodesMobile.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/ExecutesMethod.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/FindsByAccessibilityId.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/FindsByAndroidUIAutomator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/FindsByFluentSelector.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/FindsByIosClassChain.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/FindsByIosNSPredicate.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/FindsByIosUIAutomation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/FindsByWindowsAutomation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/HasAppStrings.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/HasDeviceTime.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/HasSessionDetails.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/HidesKeyboard.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/HidesKeyboardWithKeyName.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/IllegalCoordinatesException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/InteractsWithApps.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/InteractsWithFiles.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/MissingParameterException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/MobileBy.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/MobileCommand.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/MobileDriver.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/MobileElement.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/MobileSelector.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/MultiTouchAction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/NoSuchContextException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/PerformsActions.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/PerformsTouchActions.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/PressesKeyCode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/ScreenshotState.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/SwipeElementDirection.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/TouchAction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/TouchableElement.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/android/Activity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/android/AndroidDeviceActionShortcuts.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/android/AndroidDriver.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/android/AndroidElement.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/android/AndroidKeyCode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/android/AndroidKeyMetastate.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/android/AndroidMobileCommandHelper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/android/Connection.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/android/HasDeviceDetails.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/android/HasNetworkConnection.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/android/HasSettings.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/android/HasSupportedPerformanceDataType.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/android/LocksAndroidDevice.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/android/PushesFiles.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/android/Setting.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/android/StartsActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/android/internal/JsonToAndroidElementConverter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/events/DefaultAspect.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/events/DefaultBeanConfiguration.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/events/DefaultListener.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/events/EventFiringObjectFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/events/EventFiringWebDriverFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/events/ListenerInvocationHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/events/api/Listener.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/events/api/general/AlertEventListener.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/events/api/general/AppiumWebDriverEventListener.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/events/api/general/ElementEventListener.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/events/api/general/JavaScriptEventListener.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/events/api/general/ListensToException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/events/api/general/NavigationEventListener.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/events/api/general/SearchingEventListener.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/events/api/general/WindowEventListener.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/events/api/mobile/ContextEventListener.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/events/api/mobile/RotationEventListener.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/functions/ActionSupplier.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/functions/AppiumFunction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/functions/ExpectedCondition.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/internal/ElementMap.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/internal/JsonToMobileElementConverter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/ios/IOSDeviceActionShortcuts.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/ios/IOSDriver.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/ios/IOSElement.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/ios/IOSMobileCommandHelper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/ios/IOSTouchAction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/ios/LocksIOSDevice.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/ios/PerformsTouchID.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/ios/ShakesDevice.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/ios/internal/JsonToIOSElementConverter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/pagefactory/AndroidBy.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/pagefactory/AndroidFindAll.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/pagefactory/AndroidFindBy.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/pagefactory/AndroidFindByAllSet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/pagefactory/AndroidFindByChainSet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/pagefactory/AndroidFindBySet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/pagefactory/AndroidFindBys.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/pagefactory/AppiumElementLocator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/pagefactory/AppiumElementLocatorFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/pagefactory/DefaultElementByBuilder.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/pagefactory/ElementInterceptor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/pagefactory/ElementListInterceptor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/pagefactory/HowToUseLocators.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/pagefactory/LocatorGroupStrategy.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/pagefactory/OverrideWidget.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/pagefactory/OverrideWidgetReader.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/pagefactory/SelendroidBy.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/pagefactory/SelendroidFindAll.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/pagefactory/SelendroidFindBy.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/pagefactory/SelendroidFindByChainSet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/pagefactory/SelendroidFindBys.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/pagefactory/ThrowableUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/pagefactory/TimeOutDuration.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/pagefactory/Widget.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/pagefactory/WidgetByBuilder.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/pagefactory/WidgetConstructorUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/pagefactory/WindowsBy.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/pagefactory/WindowsFindAll.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/pagefactory/WindowsFindBy.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/pagefactory/WindowsFindByAllSet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/pagefactory/WindowsFindByChainSet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/pagefactory/WindowsFindBySet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/pagefactory/WithTimeout.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/pagefactory/iOSBy.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/pagefactory/iOSFindAll.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/pagefactory/iOSFindBy.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/pagefactory/iOSFindByChainSet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/pagefactory/iOSFindBySet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/pagefactory/iOSFindBys.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/pagefactory/iOSXCUITBy.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/pagefactory/iOSXCUITFindAll.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/pagefactory/iOSXCUITFindBy.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/pagefactory/iOSXCUITFindByAllSet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/pagefactory/iOSXCUITFindByChainSet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/pagefactory/iOSXCUITFindBys.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/remote/AndroidMobileCapabilityType.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/remote/AppiumCommandExecutor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/remote/AppiumProtocolHandShake.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/remote/AutomationName.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/remote/HideKeyboardStrategy.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/remote/IOSMobileCapabilityType.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/remote/MobileBrowserType.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/remote/MobileCapabilityType.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/remote/MobilePlatform.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/remote/YouiEngineCapabilityType.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/service/local/AppiumDriverLocalService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/service/local/AppiumServerHasNotBeenStartedLocallyException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/service/local/AppiumServiceBuilder.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/service/local/InvalidNodeJSInstance.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/service/local/InvalidServerInstanceException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/service/local/ListOutputStream.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/service/local/Scripts.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/service/local/flags/AndroidServerFlag.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/service/local/flags/GeneralServerFlag.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/service/local/flags/IOSServerFlag.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/service/local/flags/ServerArgument.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/windows/WindowsDriver.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/windows/WindowsElement.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/windows/WindowsKeyCode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/youiengine/YouiEngineDriver.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/youiengine/YouiEngineElement.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/youiengine/internal/JsonToYouiEngineElementConverter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/iosTest/RealDeviceTest.java" afterPath="$PROJECT_DIR$/src/test/java/iosTest/RealDeviceTest.java" />
     </list>
     <ignored path="appiumtest.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -64,73 +197,63 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SeleniumTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/appium/SeleniumTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="945">
-              <caret line="75" column="39" lean-forward="false" selection-start-line="75" selection-start-column="39" selection-end-line="75" selection-end-column="39" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#6700#6701#0" expanded="false" />
-                <element signature="e#6729#6730#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DeleteNexusRecord.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/appium/DeleteNexusRecord.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="419">
-              <caret line="101" column="0" lean-forward="true" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoginTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/AiXuePaiTestForTestng/LoginTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#1653#1654#0" expanded="false" />
-                <element signature="e#1682#1683#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoginPage.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/page/LoginPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="76" lean-forward="true" selection-start-line="27" selection-start-column="76" selection-end-line="27" selection-end-column="76" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoginPageForStudent.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/page/LoginPageForStudent.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SampleTestCaseForContactManager.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/appium/SampleTestCaseForContactManager.java">
+      <file leaf-file-name="RealDeviceTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/iosTest/RealDeviceTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
-              <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+              <caret line="3" column="51" lean-forward="false" selection-start-line="3" selection-start-column="51" selection-end-line="3" selection-end-column="51" />
+              <folding>
+                <element signature="e#1712#1713#0" expanded="false" />
+                <element signature="e#1741#1742#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FindsByAccessibilityId.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/FindsByAccessibilityId.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#1535#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FindsByAndroidUIAutomator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/FindsByAndroidUIAutomator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#1559#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FindsByFluentSelector.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/FindsByFluentSelector.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#1923#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FindsByIosNSPredicate.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/FindsByIosNSPredicate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="false" />
               </folding>
@@ -138,50 +261,84 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AlertPresent.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/util/AlertPresent.java">
+      <file leaf-file-name="HasAppStrings.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/HasAppStrings.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state relative-caret-position="-180">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="false" />
+                <element signature="e#1152#1153#0" expanded="false" />
+                <element signature="e#1224#1225#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SuiteRunnerWorker.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.9.9/testng-6.9.9.jar!/org/testng/SuiteRunnerWorker.class">
+      <file leaf-file-name="MobileBy.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/MobileBy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+            <state relative-caret-position="315">
+              <caret line="110" column="1" lean-forward="false" selection-start-line="110" selection-start-column="1" selection-end-line="117" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#1950#1951#0" expanded="false" />
+                <element signature="e#1986#1987#0" expanded="false" />
+                <element signature="e#3838#3839#0" expanded="false" />
+                <element signature="e#3899#3900#0" expanded="false" />
+                <element signature="e#7388#7389#0" expanded="false" />
+                <element signature="e#7462#7463#0" expanded="false" />
+                <element signature="e#9921#9922#0" expanded="false" />
+                <element signature="e#9998#9999#0" expanded="false" />
+                <element signature="e#10151#10152#0" expanded="false" />
+                <element signature="e#10227#10228#0" expanded="false" />
+                <element signature="e#12419#12420#0" expanded="false" />
+                <element signature="e#12493#12494#0" expanded="false" />
+                <element signature="e#12642#12643#0" expanded="false" />
+                <element signature="e#12718#12719#0" expanded="false" />
+                <element signature="e#14774#14775#0" expanded="false" />
+                <element signature="e#14846#14847#0" expanded="false" />
+                <element signature="e#14997#14998#0" expanded="false" />
+                <element signature="e#15078#15079#0" expanded="false" />
+                <element signature="e#17142#17143#0" expanded="false" />
+                <element signature="e#17215#17216#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DeleteTask.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/appium/DeleteTask.java">
+      <file leaf-file-name="AppiumCommandInfo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/AppiumCommandInfo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="690">
-              <caret line="61" column="26" lean-forward="false" selection-start-line="61" selection-start-column="26" selection-end-line="61" selection-end-column="26" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="false" />
-                <element signature="e#2400#2401#0" expanded="false" />
-                <element signature="e#2429#2430#0" expanded="false" />
+                <element signature="e#1244#1245#0" expanded="false" />
+                <element signature="e#1270#1271#0" expanded="false" />
+                <element signature="e#1307#1308#0" expanded="false" />
+                <element signature="e#1336#1337#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TeacherLoginTest1.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/iosTest/TeacherLoginTest1.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1965">
-              <caret line="140" column="11" lean-forward="false" selection-start-line="140" selection-start-column="11" selection-end-line="141" selection-end-column="41" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
+            <state relative-caret-position="701">
+              <caret line="80" column="8" lean-forward="false" selection-start-line="80" selection-start-column="8" selection-end-line="85" selection-end-column="21" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -213,7 +370,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/Weixin/DriverForPublic.java" />
         <option value="$PROJECT_DIR$/src/test/java/Weixin/PublicTest2.java" />
         <option value="$PROJECT_DIR$/src/test/java/Weixin/PublicTest1.java" />
         <option value="$PROJECT_DIR$/src/test/java/Weixin/iOSPageObjectTest.java" />
@@ -251,7 +407,6 @@
         <option value="$PROJECT_DIR$/src/test/java/iosTest/InitializeDriver.java" />
         <option value="$PROJECT_DIR$/src/test/java/iosTest/InitializeDriverRealDevice.java" />
         <option value="$PROJECT_DIR$/src/test/java/iosTest/InitializeDriverRealDevice1.java" />
-        <option value="$PROJECT_DIR$/src/test/java/iosTest/RealDeviceTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/iosTest/RealDeviceTest1.java" />
         <option value="$PROJECT_DIR$/src/test/java/iosTest/InitializeDriver1.java" />
         <option value="$PROJECT_DIR$/src/test/java/AiXuepai/RegisterTest.java" />
@@ -262,8 +417,10 @@
         <option value="$PROJECT_DIR$/src/test/java/appium/SeleniumTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/Weixin/MiniProgramTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/Weixin/Driver.java" />
-        <option value="$PROJECT_DIR$/src/test/java/appium/DeleteTask.java" />
         <option value="$PROJECT_DIR$/src/test/java/appium/DeleteNexusRecord.java" />
+        <option value="$PROJECT_DIR$/src/test/java/appium/DeleteTask.java" />
+        <option value="$PROJECT_DIR$/src/test/java/iosTest/RealDeviceTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -334,9 +491,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -346,134 +503,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="appiumtest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="appiumtest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="appiumtest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="appiumtest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="appiumtest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resource" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="appiumtest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="appiumtest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="appiumtest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="appiumtest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="page" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="appiumtest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="appiumtest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="appium" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="appiumtest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="appiumtest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -498,12 +527,12 @@
     <property name="Repository.Attach.Sources" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/test/resource" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/test/resource/apps" />
+      <recent name="$PROJECT_DIR$/src/test/resource" />
+      <recent name="$PROJECT_DIR$/src/test/java" />
       <recent name="$PROJECT_DIR$/src/test" />
-      <recent name="$PROJECT_DIR$/src/test/java/Weixin" />
-      <recent name="D:\MavenRepository\appiumtest\src\test\resource\apps" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="appium" />
@@ -512,12 +541,12 @@
       <recent name="page" />
       <recent name="TestGrid" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/test/resource/apps" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/main" />
       <recent name="$PROJECT_DIR$/src/test/resource" />
-      <recent name="$PROJECT_DIR$/src/test/java" />
+      <recent name="$PROJECT_DIR$/src/test/resource/apps" />
       <recent name="$PROJECT_DIR$/src/test" />
-      <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
   </component>
   <component name="RunManager" selected="TestNG.DeleteNexusRecord">
@@ -1233,7 +1262,11 @@
       <workItem from="1499163066679" duration="589000" />
       <workItem from="1500517145838" duration="613000" />
       <workItem from="1500543760901" duration="12044000" />
-      <workItem from="1500615847189" duration="5173000" />
+      <workItem from="1500615847189" duration="5337000" />
+      <workItem from="1501050047326" duration="2806000" />
+      <workItem from="1501053542348" duration="678000" />
+      <workItem from="1501054262839" duration="904000" />
+      <workItem from="1501055544095" duration="606000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1486639257743</created>
@@ -1334,39 +1367,48 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="591733000" />
+    <option name="totallyTimeSpent" value="596891000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="983" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1920" height="983" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947975" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18915802" sideWeight="0.49791667" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23898679" sideWeight="0.51666665" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2015625" sideWeight="0.49483013" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21965317" sideWeight="0.48333332" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3282887" sideWeight="0.49791667" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32716763" sideWeight="0.49791667" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21965317" sideWeight="0.48333332" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32945284" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.094797686" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28115016" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29286474" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25029105" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25029105" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18915802" sideWeight="0.49791667" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1046875" sideWeight="0.50516987" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -1403,100 +1445,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/page/SwitchLoginPageYindaoImage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/page/SwitchRecordCompleteYindaoImage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="15" column="8" lean-forward="false" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="83" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/page/SelectTeacher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="24" column="57" lean-forward="false" selection-start-line="24" selection-start-column="57" selection-end-line="24" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/util/AppiumServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/AiXuepai/LoginTest1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="22" column="34" lean-forward="false" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/page/DrawFigure.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/page/BaibanAdd_Manage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/util/DriverInitialize.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resource/apps/TestApp.app/PkgInfo" />
-    <entry file="file://$PROJECT_DIR$/src/test/resource/TestAppReal.app/PkgInfo" />
-    <entry file="file://$PROJECT_DIR$/src/test/TestForStudent.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="12" lean-forward="false" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/TestForGrid.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="9" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/TestForAiXuePaiGrid.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/AiXuepai/SelectTeacherTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="29" column="50" lean-forward="true" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/TestForTeacher.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="57" lean-forward="false" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="57" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1504,7 +1456,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="23" column="11" lean-forward="true" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1533,7 +1484,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1569,13 +1519,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="33" column="16" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/iosTest/RealDeviceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1621,14 +1564,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1725">
-          <caret line="115" column="48" lean-forward="false" selection-start-line="115" selection-start-column="48" selection-end-line="115" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Weixin/MiniProgramTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -1643,15 +1578,101 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/AiXuepai/SeleniumTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="19" column="36" lean-forward="false" selection-start-line="18" selection-start-column="7" selection-end-line="19" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/appium/DriverBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/util/Initialize1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="26" column="46" lean-forward="false" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/iosTest/TeacherLoginTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="57" column="75" lean-forward="false" selection-start-line="57" selection-start-column="75" selection-end-line="57" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/iosTest/TeacherLoginTest1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1965">
+          <caret line="140" column="11" lean-forward="false" selection-start-line="140" selection-start-column="11" selection-end-line="141" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.9.9/testng-6.9.9.jar!/org/testng/SuiteRunnerWorker.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/util/AlertPresent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/AiXuePaiTestForTestng/LoginTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/page/LoginPageForStudent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/page/LoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="76" lean-forward="false" selection-start-line="27" selection-start-column="76" selection-end-line="27" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/appium/SampleTestCaseForContactManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/appium/DriverBaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/appium/AixuepaiTestInsertImage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/appium/ChangeRealName.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1005">
+        <state relative-caret-position="433">
           <caret line="79" column="41" lean-forward="false" selection-start-line="79" selection-start-column="41" selection-end-line="79" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#4756#4757#0" expanded="false" />
-            <element signature="e#4785#4786#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1662,145 +1683,185 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/AiXuepai/SeleniumTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="19" column="36" lean-forward="false" selection-start-line="18" selection-start-column="7" selection-end-line="19" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/appium/DriverBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/util/Initialize1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="26" column="46" lean-forward="false" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/iosTest/TeacherLoginTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="57" column="75" lean-forward="false" selection-start-line="57" selection-start-column="75" selection-end-line="57" selection-end-column="75" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/iosTest/TeacherLoginTest1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1965">
-          <caret line="140" column="11" lean-forward="false" selection-start-line="140" selection-start-column="11" selection-end-line="141" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/appium/SeleniumTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="945">
           <caret line="75" column="39" lean-forward="false" selection-start-line="75" selection-start-column="39" selection-end-line="75" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#6700#6701#0" expanded="false" />
-            <element signature="e#6729#6730#0" expanded="false" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/appium/AixuepaiTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/appium/AppiumDriverBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/appium/DeleteTask.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="61" column="26" lean-forward="false" selection-start-line="61" selection-start-column="26" selection-end-line="61" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#2400#2401#0" expanded="false" />
-            <element signature="e#2429#2430#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.9.9/testng-6.9.9.jar!/org/testng/SuiteRunnerWorker.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+        <state relative-caret-position="495">
+          <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/appium/SampleTestCaseForContactManager.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/io/appium/java-client/4.0.0/java-client-4.0.0.jar!/io/appium/java_client/TouchAction.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+        <state relative-caret-position="825">
+          <caret line="64" column="5" lean-forward="false" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/util/AlertPresent.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/io/appium/java-client/4.0.0/java-client-4.0.0.jar!/io/appium/java_client/MobileBy.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/AiXuePaiTestForTestng/LoginTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1653#1654#0" expanded="false" />
-            <element signature="e#1682#1683#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/page/LoginPageForStudent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+        <state relative-caret-position="660">
+          <caret line="65" column="9" lean-forward="false" selection-start-line="65" selection-start-column="9" selection-end-line="65" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/appium/DeleteNexusRecord.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="101" column="0" lean-forward="true" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
+        <state relative-caret-position="1305">
+          <caret line="101" column="0" lean-forward="false" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/page/LoginPage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/FindsByAccessibilityId.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="76" lean-forward="true" selection-start-line="27" selection-start-column="76" selection-end-line="27" selection-end-column="76" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#0#1535#0" expanded="false" />
+            <element signature="imports" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/iosTest/RealDeviceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="51" lean-forward="false" selection-start-line="3" selection-start-column="51" selection-end-line="3" selection-end-column="51" />
+          <folding>
+            <element signature="e#1712#1713#0" expanded="false" />
+            <element signature="e#1741#1742#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="701">
+          <caret line="80" column="8" lean-forward="false" selection-start-line="80" selection-start-column="8" selection-end-line="85" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/FindsByAndroidUIAutomator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#1559#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/AppiumCommandInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1244#1245#0" expanded="false" />
+            <element signature="e#1270#1271#0" expanded="false" />
+            <element signature="e#1307#1308#0" expanded="false" />
+            <element signature="e#1336#1337#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/FindsByFluentSelector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#1923#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/FindsByIosNSPredicate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/HasAppStrings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-180">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1152#1153#0" expanded="false" />
+            <element signature="e#1224#1225#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java-client-5.0.0-BETA9-sources/io/appium/java_client/MobileBy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="110" column="1" lean-forward="false" selection-start-line="110" selection-start-column="1" selection-end-line="117" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1950#1951#0" expanded="false" />
+            <element signature="e#1986#1987#0" expanded="false" />
+            <element signature="e#3838#3839#0" expanded="false" />
+            <element signature="e#3899#3900#0" expanded="false" />
+            <element signature="e#7388#7389#0" expanded="false" />
+            <element signature="e#7462#7463#0" expanded="false" />
+            <element signature="e#9921#9922#0" expanded="false" />
+            <element signature="e#9998#9999#0" expanded="false" />
+            <element signature="e#10151#10152#0" expanded="false" />
+            <element signature="e#10227#10228#0" expanded="false" />
+            <element signature="e#12419#12420#0" expanded="false" />
+            <element signature="e#12493#12494#0" expanded="false" />
+            <element signature="e#12642#12643#0" expanded="false" />
+            <element signature="e#12718#12719#0" expanded="false" />
+            <element signature="e#14774#14775#0" expanded="false" />
+            <element signature="e#14846#14847#0" expanded="false" />
+            <element signature="e#14997#14998#0" expanded="false" />
+            <element signature="e#15078#15079#0" expanded="false" />
+            <element signature="e#17142#17143#0" expanded="false" />
+            <element signature="e#17215#17216#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1861,7 +1922,6 @@
             <option name="proportions">
               <list>
                 <option value="0.44827586" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
