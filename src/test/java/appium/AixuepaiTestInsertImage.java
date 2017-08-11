@@ -20,8 +20,8 @@ public class AixuepaiTestInsertImage extends AppiumDriverBase {
     IsElementPresent elementPresent = new IsElementPresent();
     AlertPresent alertPresent = new AlertPresent();
     //Test Annotation changes any java function to TestNG test case
-    @Test(dataProvider = "loginSucess")
-    public void loginTest(String username, String pwd) throws Exception {
+    @Test
+    public void loginTest() throws Exception {
 
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 
@@ -32,9 +32,10 @@ public class AixuepaiTestInsertImage extends AppiumDriverBase {
 
         for (int i = 0; i < 4; i++) {
             // perform Drag and Drop
-            driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+//            driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
             TouchAction dragNDrop = new TouchAction(driver);
-            dragNDrop.longPress(width * 14 / 15, height / 2).moveTo(width / 15, height / 2).release().perform();
+            dragNDrop.press(width * 14 / 15, height / 2).moveTo(width / 15, height / 2).release().perform();
+            driver.swipe(width*14/15,height/2,width/15,height/2,200);
             }
 
         driver.findElement(By.id("com.etiantian.pclass:id/go_bt")).click();
@@ -42,34 +43,35 @@ public class AixuepaiTestInsertImage extends AppiumDriverBase {
         WebElement ae1 = driver.findElement(By.id("com.etiantian.pclass:id/lag_ed_name"));
         //ae1.click();
         //ae1.clear();
-        ae1.sendKeys(username);
+        ae1.sendKeys("爱学派A");
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         WebElement ae2 = driver.findElement(By.id("com.etiantian.pclass:id/lag_ed_pwd"));
         //ae2.click();
        // ae2.clear();
-        ae2.sendKeys(pwd);
+        ae2.sendKeys("1111");
         driver.findElement(By.id("com.etiantian.pclass:id/lag_btn_login")).click();
         driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
         String selectClass = driver.findElement(By.className("android.widget.TextView")).getText();
-        Assert.assertEquals("选择班级", selectClass);
+       // Assert.assertEquals("选择班级", selectClass);
 
         driver.findElement(By.id("com.etiantian.pclass:id/ydt_part_over")).click();
         driver.findElement(By.id("com.etiantian.pclass:id/ydt_enter_over")).click();
-        //选择班级
-        List<WebElement> ae3 = driver.findElement(By.id("com.etiantian.pclass:id/lacc_rlv")).findElements(By.className("android.widget.LinearLayout"));
-       // System.out.print(ae3.size());
-        TouchAction clickClass = new TouchAction(driver);
-        clickClass.press(ae3.get(3).findElement(By.className("android.widget.RelativeLayout"))).release().perform();
-        TouchAction clickClass1 = new TouchAction(driver);
-        clickClass1.press(ae3.get(ae3.size()-2).findElement(By.className("android.widget.RelativeLayout"))).release().perform();
-        TouchAction clickClass2 = new TouchAction(driver);
-        clickClass2.press(ae3.get(ae3.size()-1).findElement(By.className("android.widget.RelativeLayout"))).release().perform();
+        Thread.sleep(10000);
+//        //选择班级
+//        List<WebElement> ae3 = driver.findElement(By.id("com.etiantian.pclass:id/lacc_rlv")).findElements(By.className("android.widget.LinearLayout"));
+//        System.out.print(ae3.size());
+//        TouchAction clickClass = new TouchAction(driver);
+//        clickClass.press(ae3.get(3).findElement(By.className("android.widget.RelativeLayout"))).release().perform();
+//        TouchAction clickClass1 = new TouchAction(driver);
+//        clickClass1.press(ae3.get(ae3.size()-2).findElement(By.className("android.widget.RelativeLayout"))).release().perform();
+//        TouchAction clickClass2 = new TouchAction(driver);
+//        clickClass2.press(ae3.get(ae3.size()-1).findElement(By.className("android.widget.RelativeLayout"))).release().perform();
 
         driver.findElement(By.id("com.etiantian.pclass:id/lacc_btn_ready")).click();
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-        Assert.assertEquals("高二英语",driver.findElement(By.id("com.etiantian.pclass:id/lftc_txt_title")).getText());
+       // Assert.assertEquals("高二英语",driver.findElement(By.id("com.etiantian.pclass:id/lftc_txt_title")).getText());
 
-        for(int i = 0;i<10;i++) {
+        for(int i = 0;i<100;i++) {
             System.out.println();
             System.out.println("循环第"+(i+1)+"次");
             System.out.println();
@@ -87,19 +89,27 @@ public class AixuepaiTestInsertImage extends AppiumDriverBase {
                 driver.findElement(By.id("com.etiantian.pclass:id/wb_btn_clear")).click();
                 driver.findElement(By.id("com.etiantian.pclass:id/negativeButton")).click();
             }
-            for (int j =0;j<3;j++) {
+            for (int j =0;j<10;j++) {
                 driver.findElement(By.id("com.etiantian.pclass:id/wb_btn_img")).click();
+                Thread.sleep(3000);
                 driver.findElement(By.id("com.etiantian.pclass:id/pop_btn_album")).click();
                 Thread.sleep(3000);
                 TouchAction clickClass11 = new TouchAction(driver);
                 clickClass11.press(737,617).release().perform();
                 Thread.sleep(1000);
                 TouchAction clickClass12 = new TouchAction(driver);
-                clickClass12.press(961,613).release().perform();
+                clickClass12.press(737,617).release().perform();
                 Thread.sleep(1000);
                 driver.findElement(By.id("com.android.gallery3d:id/filtershow_done")).click();
                 Thread.sleep(6000);
                 System.out.println("加载第"+(j+1)+"张");
+                Thread.sleep(6000);
+                IsElementPresent isElementPresent = new IsElementPresent();
+                if (isElementPresent.isElementPresent(By.id("com.etiantian.pclass:id/wb_btn_img"),driver)){
+                    continue;
+                }else {
+                    Thread.sleep(5000);
+                }
             }
             driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         }

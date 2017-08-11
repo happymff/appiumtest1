@@ -1,7 +1,7 @@
 package iosTest;
 
 import io.appium.java_client.MobileBy;
-import io.appium.java_client.FindsByIosNSPredicate;
+
 import io.appium.java_client.TouchAction;
 import io.appium.java_client.ios.IOSDriver;
 import org.openqa.selenium.By;
@@ -36,7 +36,7 @@ public class RealDeviceTest {
         tc.longPress(AppNameElment).moveTo(50,350).perform();
         WebElement DelElment=driver.findElement(By.id("new"));
         DelElment.click();
-        MobileBy.find("isWDVisible == 1");
+        //MobileBy.find("isWDVisible == 1");
         driver.findElement(By.xpath("//XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeTextField[1]")).sendKeys("AppiumBook");
         driver.findElement(By.xpath("//XCUIElementTypeApplication[1]/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeTextField[2]")).sendKeys("First TC");
     }

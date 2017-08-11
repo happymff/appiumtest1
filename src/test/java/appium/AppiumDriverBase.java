@@ -28,7 +28,7 @@ public class AppiumDriverBase {
                 DesiredCapabilities();
         caps.setCapability("platform", "ANDROID");
         caps.setCapability("platformVersion", "5.0.1");
-        caps.setCapability("deviceName", "7LBEAMG699999999");
+        caps.setCapability("deviceName", "IVZHA6EE99999999");
         caps.setCapability("browserName", "");
 // relative path to apk file
         final File classpathRoot = new File(System.getProperty("user.dir"));
@@ -38,8 +38,8 @@ public class AppiumDriverBase {
         caps.setCapability("unicodeKeyboard", "True");
         //隐藏键盘
         caps.setCapability("resetKeyboard", "True");
-      //  caps.setCapability("app", app.getAbsolutePath());
-        // caps.setCapability("appPackage", "app-aixuepai.apk");
+        caps.setCapability("app", app.getAbsolutePath());
+         caps.setCapability("appPackage", "com.etiantian.pclass");
 // initializing driver object
         driver = new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"), caps);
 // initializing explicit wait object
@@ -51,7 +51,7 @@ public class AppiumDriverBase {
     @AfterTest
     public void afterTest() {
        // quit the driver
-        driver.quit();
+        //driver.quit();
 
     }
 
