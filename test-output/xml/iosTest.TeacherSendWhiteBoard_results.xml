@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="71.447">
+           time="74.505">
   <properties />
   
   
-            <testcase name="pushTest" time="71.447" classname="iosTest.TeacherSendWhiteBoard" />
+            <testcase name="pushWhiteBoard" time="74.505" classname="iosTest.TeacherSendWhiteBoard" />
       
 </testsuite>

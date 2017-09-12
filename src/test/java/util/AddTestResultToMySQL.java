@@ -4,17 +4,17 @@ package util;
  * Created by mff on 2017/5/17.
  */
 
-        import org.testng.*;
-        import org.testng.xml.XmlSuite;
+import org.testng.*;
+import org.testng.xml.XmlSuite;
 
-        import java.io.BufferedWriter;
-        import java.io.File;
-        import java.io.FileWriter;
-        import java.io.IOException;
-        import java.text.SimpleDateFormat;
-        import java.util.*;
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.*;
 
-public class AddTestResultToMySQL implements IReporter{
+public class AddTestResultToMySQL implements IReporter {
 
     @Override
     public void generateReport(List<XmlSuite> xmlSuites, List<ISuite> suites, String outputDirectory) {
@@ -34,33 +34,33 @@ public class AddTestResultToMySQL implements IReporter{
             }
         }
         this.sort(list);
-        this.outputResult(list, outputDirectory+"/test.txt");
+        this.outputResult(list, outputDirectory + "/test.txt");
     }
 
-    private ArrayList<ITestResult> listTestResult(IResultMap resultMap){
+    private ArrayList<ITestResult> listTestResult(IResultMap resultMap) {
         Set<ITestResult> results = resultMap.getAllResults();
         return new ArrayList<ITestResult>(results);
     }
 
-    private void sort(List<ITestResult> list){
+    private void sort(List<ITestResult> list) {
         Collections.sort(list, new Comparator<ITestResult>() {
             @Override
             public int compare(ITestResult r1, ITestResult r2) {
-                if(r1.getStartMillis()>r2.getStartMillis()){
+                if (r1.getStartMillis() > r2.getStartMillis()) {
                     return 1;
-                }else{
+                } else {
                     return -1;
                 }
             }
         });
     }
 
-    private void outputResult(List<ITestResult> list, String path){
+    private void outputResult(List<ITestResult> list, String path) {
         try {
             BufferedWriter output = new BufferedWriter(new FileWriter(new File(path)));
             StringBuffer sb = new StringBuffer();
             for (ITestResult result : list) {
-                if(sb.length()!=0){
+                if (sb.length() != 0) {
                     sb.append("\r\n");
                 }
                 sb.append("\"")
@@ -70,7 +70,7 @@ public class AddTestResultToMySQL implements IReporter{
                         .append("\",\"")
                         .append(this.formatDate(result.getStartMillis()))
                         .append("\",\"")
-                        .append(result.getEndMillis()-result.getStartMillis())
+                        .append(result.getEndMillis() - result.getStartMillis())
                         .append("毫秒\",\"")
                         .append(this.getStatus(result.getStatus()))
                         .append("\"");
@@ -88,7 +88,7 @@ public class AddTestResultToMySQL implements IReporter{
 
     }
 
-    private String getStatus(int status){
+    private String getStatus(int status) {
         String statusString = null;
         switch (status) {
             case 1:
@@ -106,7 +106,7 @@ public class AddTestResultToMySQL implements IReporter{
         return statusString;
     }
 
-    private String formatDate(long date){
+    private String formatDate(long date) {
         SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         return formatter.format(date);
     }

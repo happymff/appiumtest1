@@ -1,57 +1,43 @@
 package util;
 
-/**
- * Created by mff on 2017/5/11.
- */
+import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebDriver;
+
+import java.io.File;
 import java.io.IOException;
-import java.net.MalformedURLException;
-import java.net.URL;
-import java.util.concurrent.TimeUnit;
-import io.appium.java_client.AppiumDriver;
-import io.appium.java_client.android.AndroidDriver;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.remote.DesiredCapabilities;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.Listeners;
-import org.testng.annotations.Test;
+import java.util.Date;
 
-
-@Listeners({ScreenshotListener.class})
+/**
+ * Created by mengfeifei on 2017/9/11.
+ */
 public class Screenshot {
-    static AppiumDriver driver;
-//
-//    @BeforeClass
-//    public void setUp() throws MalformedURLException {
-//        DesiredCapabilities capabilities = new DesiredCapabilities();
-//        capabilities.setCapability("deviceName", "AndroidUI");
-//        capabilities.setCapability("platformVersion", "1.0");
-//        capabilities.setCapability("appPackage", "com.android.androidui");
-//        capabilities.setCapability("appActivity", "com.android.androidui.MainActivity");
-//        driver = new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
-//        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-//    }
-//
-//    @Test
-//    public void testExample() throws IOException {
-//        WebElement spinner = driver.findElement(By.id("android:id/text1"));
-//        spinner.click();
-//        driver.scrollToExact("India");
-//        WebElement optionindia = driver.findElement(By.name("India"));
-//        optionindia.click();
-//        WebElement result = optionindia;
-////Check the calculated value on the edit box
-//        assert result.getText().equals("France") : "Actual value is :" + result.getText() + " did not match with expected value: France";
-//    }
-//
-//    @AfterClass
-//    public void tearDown() {
-//        driver.closeApp();
-//    }
+    WebDriver driver;
 
-    public static AppiumDriver getDriver() {
-        return driver;
+    public Screenshot(WebDriver driver) {
+        this.driver =driver;
+    }
+
+    private void takeScreenShot(String filepath){
+        File screenShot =((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+        try{
+            FileUtils.copyFile(screenShot, new File(filepath));
+        }
+        catch(IOException e){
+            e.printStackTrace();
+        }
+    }
+
+    public void takeScreenShot(){
+        String fileName = String.valueOf(new Date().getTime()+".jpg");
+        File dir = new File("test-output/snapshots");
+       if (!dir.exists()){
+           dir.mkdir();
+       }
+       String screenShotPath = dir.getAbsolutePath()+"/"+fileName;
+
+       takeScreenShot(screenShotPath);
     }
 
 }
