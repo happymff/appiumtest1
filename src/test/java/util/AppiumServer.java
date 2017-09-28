@@ -1,9 +1,5 @@
 package util;
 
-import com.sun.tools.javac.util.Log;
-
-import java.io.IOException;
-
 /**
  * Created by mengfeifei on 2017/2/13.
  */

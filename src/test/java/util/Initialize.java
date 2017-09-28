@@ -12,8 +12,8 @@ public class Initialize {
 
     String platformName = "ANDROID";
     String apkname = "app-aixuepai.apk";
-    String devicename = "7LBEAMG699999999";
-    String platormVersion = "5.0.1";
+    String devicename = "192.168.56.101:5555";
+    String platormVersion = "5.1";
     Boolean install = false;
 
     public DesiredCapabilities driverInitialize() throws Exception {
@@ -24,9 +24,7 @@ public class Initialize {
         File app = new File(appDir, apkname);
 
         DesiredCapabilities capabilities = new DesiredCapabilities();
-        //设置每次运行不重新启动被测试app
-        //capabilities.setCapability("noReset","true");
-        //capabilities.setCapability("fullReset","false");
+
 
         capabilities.setCapability(CapabilityType.BROWSER_NAME, "");
         capabilities.setCapability("platformName", platformName);

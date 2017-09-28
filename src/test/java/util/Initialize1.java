@@ -22,9 +22,6 @@ public class Initialize1 {
         File app = new File(appDir, apkname);
 
         DesiredCapabilities capabilities = new DesiredCapabilities();
-        //设置每次运行不重新启动被测试app
-       // capabilities.setCapability("noReset","true");
-        //apabilities.setCapability("fullReset","false");
 
         capabilities.setCapability(CapabilityType.BROWSER_NAME, "");
         capabilities.setCapability("platformName", platformName);

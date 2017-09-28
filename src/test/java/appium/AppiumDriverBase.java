@@ -18,6 +18,7 @@ import org.testng.annotations.BeforeTest;
 public class AppiumDriverBase {
     protected AndroidDriver driver;
     protected WebDriverWait wait;
+    protected AndroidDriverWait wait1;
 
     // before Test Annotation makes a java function to run every time before a TestNG test case
     @BeforeTest
@@ -43,9 +44,12 @@ public class AppiumDriverBase {
 // initializing driver object
         driver = new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"), caps);
 // initializing explicit wait object
+
+
         driver.manage().timeouts().implicitlyWait(10,
                 TimeUnit.SECONDS);
         wait = new WebDriverWait(driver, 10);
+        wait1 = new AndroidDriverWait(driver,10);
     }
     // After Test Annotation makes a java function to run every time after a TestNG test case
     @AfterTest
