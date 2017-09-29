@@ -1,10 +1,7 @@
 package util;
 
-import io.appium.java_client.android.AndroidDriver;
 import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
-import org.openqa.selenium.support.ui.WebDriverWait;
-
 import java.io.File;
 
 
@@ -24,7 +21,6 @@ public class Initialize {
         File app = new File(appDir, apkname);
 
         DesiredCapabilities capabilities = new DesiredCapabilities();
-
 
         capabilities.setCapability(CapabilityType.BROWSER_NAME, "");
         capabilities.setCapability("platformName", platformName);

@@ -2,177 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e28246db-877f-419e-9c12-20a622f54f02" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/AiXuepai/BaiBanRecordingRectangleTest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/AiXuePaiTestForTestng/MonkeyTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/appium/AndroidDriverWait.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/appium/ExpectedCondition.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/appium/assertToast.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_3_2_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_nodep_3_2_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_codeborne_phantomjsdriver_1_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_21_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_validator_commons_validator_1_5_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_appium_java_client_4_0_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_cssparser_cssparser_0_9_22.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_htmlunit_htmlunit_2_26.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_htmlunit_htmlunit_core_js_2_26.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_htmlunit_neko_htmlunit_2_25.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_5_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_client_9_4_3_v20170317.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_http_9_4_3_v20170317.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_io_9_4_1_v20170120.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_util_9_4_1_v20170120.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_api_9_4_3_v20170317.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_client_9_4_3_v20170317.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_common_9_4_3_v20170317.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_htmlunit_driver_2_26.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_api_3_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chrome_driver_3_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_edge_driver_3_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_firefox_driver_3_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_ie_driver_3_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_java_3_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_opera_driver_3_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_remote_driver_3_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_safari_driver_3_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_support_3_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_w3c_css_sac_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xalan_serializer_2_7_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xalan_xalan_2_7_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xerces_xercesImpl_2_11_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_4_01.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/AiXuePaiTestForTestng/BaiBanAdd_ManageTest.class" afterPath="$PROJECT_DIR$/target/test-classes/AiXuePaiTestForTestng/BaiBanAdd_ManageTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/AiXuePaiTestForTestng/BaiBanRecordingCicleTest.class" afterPath="$PROJECT_DIR$/target/test-classes/AiXuePaiTestForTestng/BaiBanRecordingCicleTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/AiXuePaiTestForTestng/BaiBanRecordingEllipseTest.class" afterPath="$PROJECT_DIR$/target/test-classes/AiXuePaiTestForTestng/BaiBanRecordingEllipseTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/AiXuePaiTestForTestng/BaiBanRecordingHexagonTest.class" afterPath="$PROJECT_DIR$/target/test-classes/AiXuePaiTestForTestng/BaiBanRecordingHexagonTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/AiXuePaiTestForTestng/BaiBanRecordingHexagonUploadTest.class" afterPath="$PROJECT_DIR$/target/test-classes/AiXuePaiTestForTestng/BaiBanRecordingHexagonUploadTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/AiXuePaiTestForTestng/BaiBanRecordingLineTest.class" afterPath="$PROJECT_DIR$/target/test-classes/AiXuePaiTestForTestng/BaiBanRecordingLineTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/AiXuePaiTestForTestng/BaiBanRecordingMoreCicleTest.class" afterPath="$PROJECT_DIR$/target/test-classes/AiXuePaiTestForTestng/BaiBanRecordingMoreCicleTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/AiXuePaiTestForTestng/BaiBanRecordingMoreHexagonTest.class" afterPath="$PROJECT_DIR$/target/test-classes/AiXuePaiTestForTestng/BaiBanRecordingMoreHexagonTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/AiXuePaiTestForTestng/BaiBanRecordingMoreHexagonUploadTest.class" afterPath="$PROJECT_DIR$/target/test-classes/AiXuePaiTestForTestng/BaiBanRecordingMoreHexagonUploadTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/AiXuePaiTestForTestng/BaiBanRecordingMoreLineTest.class" afterPath="$PROJECT_DIR$/target/test-classes/AiXuePaiTestForTestng/BaiBanRecordingMoreLineTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/AiXuePaiTestForTestng/BaiBanRecordingRectangleTest.class" afterPath="$PROJECT_DIR$/target/test-classes/AiXuePaiTestForTestng/BaiBanRecordingRectangleTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/AiXuePaiTestForTestng/BaiBanRecordingTest.class" afterPath="$PROJECT_DIR$/target/test-classes/AiXuePaiTestForTestng/BaiBanRecordingTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/AiXuePaiTestForTestng/BaiBanRecordingTriangleTest.class" afterPath="$PROJECT_DIR$/target/test-classes/AiXuePaiTestForTestng/BaiBanRecordingTriangleTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/AiXuePaiTestForTestng/LoginTest.class" afterPath="$PROJECT_DIR$/target/test-classes/AiXuePaiTestForTestng/LoginTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/AiXuePaiTestForTestng/SelectClassTest.class" afterPath="$PROJECT_DIR$/target/test-classes/AiXuePaiTestForTestng/SelectClassTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/AiXuepai/BaiBanAdd_ManageTest.class" afterPath="$PROJECT_DIR$/target/test-classes/AiXuepai/BaiBanAdd_ManageTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/AiXuepai/BaiBanRecordingCicleTest.class" afterPath="$PROJECT_DIR$/target/test-classes/AiXuepai/BaiBanRecordingCicleTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/AiXuepai/BaiBanRecordingEllipseTest.class" afterPath="$PROJECT_DIR$/target/test-classes/AiXuepai/BaiBanRecordingEllipseTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/AiXuepai/BaiBanRecordingHexagonTest.class" afterPath="$PROJECT_DIR$/target/test-classes/AiXuepai/BaiBanRecordingHexagonTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/AiXuepai/BaiBanRecordingHexagonUploadTest.class" afterPath="$PROJECT_DIR$/target/test-classes/AiXuepai/BaiBanRecordingHexagonUploadTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/AiXuepai/BaiBanRecordingLineTest.class" afterPath="$PROJECT_DIR$/target/test-classes/AiXuepai/BaiBanRecordingLineTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/AiXuepai/BaiBanRecordingMoreCicleTest.class" afterPath="$PROJECT_DIR$/target/test-classes/AiXuepai/BaiBanRecordingMoreCicleTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/AiXuepai/BaiBanRecordingMoreHexagonTest.class" afterPath="$PROJECT_DIR$/target/test-classes/AiXuepai/BaiBanRecordingMoreHexagonTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/AiXuepai/BaiBanRecordingMoreHexagonUploadTest.class" afterPath="$PROJECT_DIR$/target/test-classes/AiXuepai/BaiBanRecordingMoreHexagonUploadTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/AiXuepai/BaiBanRecordingMoreLineTest.class" afterPath="$PROJECT_DIR$/target/test-classes/AiXuepai/BaiBanRecordingMoreLineTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/AiXuepai/BaiBanRecordingTest.class" afterPath="$PROJECT_DIR$/target/test-classes/AiXuepai/BaiBanRecordingTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/AiXuepai/BaiBanRecordingTriangleTest.class" afterPath="$PROJECT_DIR$/target/test-classes/AiXuepai/BaiBanRecordingTriangleTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/AiXuepai/LoginTest.class" afterPath="$PROJECT_DIR$/target/test-classes/AiXuepai/LoginTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/AiXuepai/LoginTest1.class" afterPath="$PROJECT_DIR$/target/test-classes/AiXuepai/LoginTest1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/AiXuepai/RegisterTest.class" afterPath="$PROJECT_DIR$/target/test-classes/AiXuepai/RegisterTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/AiXuepai/SelectClassTest.class" afterPath="$PROJECT_DIR$/target/test-classes/AiXuepai/SelectClassTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/AiXuepai/SelectTeacherTest.class" afterPath="$PROJECT_DIR$/target/test-classes/AiXuepai/SelectTeacherTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/AiXuepai/SeleniumTest.class" afterPath="$PROJECT_DIR$/target/test-classes/AiXuepai/SeleniumTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/AiXuepai/Test1.class" afterPath="$PROJECT_DIR$/target/test-classes/AiXuepai/Test1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/AixuepaiTestForGrid.class" afterPath="$PROJECT_DIR$/target/test-classes/AixuepaiTestForGrid.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/DataProvider/DataProvid.class" afterPath="$PROJECT_DIR$/target/test-classes/DataProvider/DataProvid.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/TestGrid/InitializeDriver.class" afterPath="$PROJECT_DIR$/target/test-classes/TestGrid/InitializeDriver.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/TestGrid/InitializeDriver1.class" afterPath="$PROJECT_DIR$/target/test-classes/TestGrid/InitializeDriver1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/TestGrid/ReceiveTeacherSendeTest.class" afterPath="$PROJECT_DIR$/target/test-classes/TestGrid/ReceiveTeacherSendeTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/TestGrid/SelectTeacherTest.class" afterPath="$PROJECT_DIR$/target/test-classes/TestGrid/SelectTeacherTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/TestGrid/SelectTeacherTest1.class" afterPath="$PROJECT_DIR$/target/test-classes/TestGrid/SelectTeacherTest1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/TestGrid/StudentLoginTest.class" afterPath="$PROJECT_DIR$/target/test-classes/TestGrid/StudentLoginTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/TestGrid/TeacherLoginTest.class" afterPath="$PROJECT_DIR$/target/test-classes/TestGrid/TeacherLoginTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/TestGrid/TeacherLookAtKejianTest.class" afterPath="$PROJECT_DIR$/target/test-classes/TestGrid/TeacherLookAtKejianTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/TestGrid/TeacherSelectClassTest.class" afterPath="$PROJECT_DIR$/target/test-classes/TestGrid/TeacherSelectClassTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/TestGrid/TeacherSendKejiansTest.class" afterPath="$PROJECT_DIR$/target/test-classes/TestGrid/TeacherSendKejiansTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/Weixin/Driver.class" afterPath="$PROJECT_DIR$/target/test-classes/Weixin/Driver.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/Weixin/DriverForPublic.class" afterPath="$PROJECT_DIR$/target/test-classes/Weixin/DriverForPublic.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/Weixin/MiniProgramTest.class" afterPath="$PROJECT_DIR$/target/test-classes/Weixin/MiniProgramTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/Weixin/MiniProgramTestForJiangJiu.class" afterPath="$PROJECT_DIR$/target/test-classes/Weixin/MiniProgramTestForJiangJiu.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/Weixin/PublicTest.class" afterPath="$PROJECT_DIR$/target/test-classes/Weixin/PublicTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/Weixin/PublicTest1.class" afterPath="$PROJECT_DIR$/target/test-classes/Weixin/PublicTest1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/Weixin/PublicTest2.class" afterPath="$PROJECT_DIR$/target/test-classes/Weixin/PublicTest2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/appium/AixuepaiTest.class" afterPath="$PROJECT_DIR$/target/test-classes/appium/AixuepaiTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/appium/AixuepaiTestCircle.class" afterPath="$PROJECT_DIR$/target/test-classes/appium/AixuepaiTestCircle.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/appium/AixuepaiTestEllipse.class" afterPath="$PROJECT_DIR$/target/test-classes/appium/AixuepaiTestEllipse.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/appium/AixuepaiTestHexagon.class" afterPath="$PROJECT_DIR$/target/test-classes/appium/AixuepaiTestHexagon.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/appium/AixuepaiTestInsertImage.class" afterPath="$PROJECT_DIR$/target/test-classes/appium/AixuepaiTestInsertImage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/appium/AixuepaiTestLine.class" afterPath="$PROJECT_DIR$/target/test-classes/appium/AixuepaiTestLine.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/appium/AixuepaiTestLine1.class" afterPath="$PROJECT_DIR$/target/test-classes/appium/AixuepaiTestLine1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/appium/AixuepaiTestMoreBaiban.class" afterPath="$PROJECT_DIR$/target/test-classes/appium/AixuepaiTestMoreBaiban.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/appium/AixuepaiTestRectangle.class" afterPath="$PROJECT_DIR$/target/test-classes/appium/AixuepaiTestRectangle.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/appium/AixuepaiTestTriangle.class" afterPath="$PROJECT_DIR$/target/test-classes/appium/AixuepaiTestTriangle.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/appium/AixuepaiTestUpload.class" afterPath="$PROJECT_DIR$/target/test-classes/appium/AixuepaiTestUpload.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/appium/AppiumDriverBase.class" afterPath="$PROJECT_DIR$/target/test-classes/appium/AppiumDriverBase.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/appium/ChangeRealName.class" afterPath="$PROJECT_DIR$/target/test-classes/appium/ChangeRealName.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/appium/DeleteNexusRecord.class" afterPath="$PROJECT_DIR$/target/test-classes/appium/DeleteNexusRecord.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/appium/DeleteTask.class" afterPath="$PROJECT_DIR$/target/test-classes/appium/DeleteTask.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/appium/DriverBase.class" afterPath="$PROJECT_DIR$/target/test-classes/appium/DriverBase.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/appium/DriverBaseTest.class" afterPath="$PROJECT_DIR$/target/test-classes/appium/DriverBaseTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/appium/SampleTestCase.class" afterPath="$PROJECT_DIR$/target/test-classes/appium/SampleTestCase.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/appium/SampleTestCaseForContactManager.class" afterPath="$PROJECT_DIR$/target/test-classes/appium/SampleTestCaseForContactManager.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/appium/SeleniumTest.class" afterPath="$PROJECT_DIR$/target/test-classes/appium/SeleniumTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/appium/TestForJiangjiu.class" afterPath="$PROJECT_DIR$/target/test-classes/appium/TestForJiangjiu.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/appium/TestForJiangjiuofLogin.class" afterPath="$PROJECT_DIR$/target/test-classes/appium/TestForJiangjiuofLogin.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/iosTest/InitializeDriver.class" afterPath="$PROJECT_DIR$/target/test-classes/iosTest/InitializeDriver.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/iosTest/InitializeDriver1.class" afterPath="$PROJECT_DIR$/target/test-classes/iosTest/InitializeDriver1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/iosTest/InitializeDriverRealDevice.class" afterPath="$PROJECT_DIR$/target/test-classes/iosTest/InitializeDriverRealDevice.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/iosTest/InitializeDriverRealDevice1.class" afterPath="$PROJECT_DIR$/target/test-classes/iosTest/InitializeDriverRealDevice1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/iosTest/RealDeviceTest.class" afterPath="$PROJECT_DIR$/target/test-classes/iosTest/RealDeviceTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/iosTest/RealDeviceTest1.class" afterPath="$PROJECT_DIR$/target/test-classes/iosTest/RealDeviceTest1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/iosTest/TeacherLoginTest.class" afterPath="$PROJECT_DIR$/target/test-classes/iosTest/TeacherLoginTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/iosTest/TeacherLoginTest1.class" afterPath="$PROJECT_DIR$/target/test-classes/iosTest/TeacherLoginTest1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/page/BaibanAdd_Manage.class" afterPath="$PROJECT_DIR$/target/test-classes/page/BaibanAdd_Manage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/page/ClearBaiban.class" afterPath="$PROJECT_DIR$/target/test-classes/page/ClearBaiban.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/page/DrawFigure.class" afterPath="$PROJECT_DIR$/target/test-classes/page/DrawFigure.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/page/DrawHexagon.class" afterPath="$PROJECT_DIR$/target/test-classes/page/DrawHexagon.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/page/FileFolder.class" afterPath="$PROJECT_DIR$/target/test-classes/page/FileFolder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/page/GoIntoBaiban.class" afterPath="$PROJECT_DIR$/target/test-classes/page/GoIntoBaiban.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/page/LoginPage.class" afterPath="$PROJECT_DIR$/target/test-classes/page/LoginPage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/page/LoginPageForStudent.class" afterPath="$PROJECT_DIR$/target/test-classes/page/LoginPageForStudent.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/page/LookAtKejian.class" afterPath="$PROJECT_DIR$/target/test-classes/page/LookAtKejian.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/page/MorePage.class" afterPath="$PROJECT_DIR$/target/test-classes/page/MorePage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/page/PreviewAndSaveRecording.class" afterPath="$PROJECT_DIR$/target/test-classes/page/PreviewAndSaveRecording.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/page/PushKejian.class" afterPath="$PROJECT_DIR$/target/test-classes/page/PushKejian.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/page/ReceiveTeacherSend.class" afterPath="$PROJECT_DIR$/target/test-classes/page/ReceiveTeacherSend.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/page/RecordAndPause.class" afterPath="$PROJECT_DIR$/target/test-classes/page/RecordAndPause.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/page/SelectClass.class" afterPath="$PROJECT_DIR$/target/test-classes/page/SelectClass.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/page/SelectClassMode.class" afterPath="$PROJECT_DIR$/target/test-classes/page/SelectClassMode.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/page/SelectSpecialFigure.class" afterPath="$PROJECT_DIR$/target/test-classes/page/SelectSpecialFigure.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/page/SelectTeacher.class" afterPath="$PROJECT_DIR$/target/test-classes/page/SelectTeacher.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/page/SwitchBaiBanYindaoImage.class" afterPath="$PROJECT_DIR$/target/test-classes/page/SwitchBaiBanYindaoImage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/page/SwitchLoginPageYindaoImage.class" afterPath="$PROJECT_DIR$/target/test-classes/page/SwitchLoginPageYindaoImage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/page/SwitchRecordCompleteYindaoImage.class" afterPath="$PROJECT_DIR$/target/test-classes/page/SwitchRecordCompleteYindaoImage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/page/Upload.class" afterPath="$PROJECT_DIR$/target/test-classes/page/Upload.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/util/AlertPresent.class" afterPath="$PROJECT_DIR$/target/test-classes/util/AlertPresent.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/util/AppiumServer.class" afterPath="$PROJECT_DIR$/target/test-classes/util/AppiumServer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/util/DriverInitialize.class" afterPath="$PROJECT_DIR$/target/test-classes/util/DriverInitialize.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/util/Initialize.class" afterPath="$PROJECT_DIR$/target/test-classes/util/Initialize.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/util/Initialize1.class" afterPath="$PROJECT_DIR$/target/test-classes/util/Initialize1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/util/InitializeDataRead.class" afterPath="$PROJECT_DIR$/target/test-classes/util/InitializeDataRead.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/util/IsElementPresent.class" afterPath="$PROJECT_DIR$/target/test-classes/util/IsElementPresent.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/util/Main.class" afterPath="$PROJECT_DIR$/target/test-classes/util/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/util/ReadExcelJXL.class" afterPath="$PROJECT_DIR$/target/test-classes/util/ReadExcelJXL.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/util/ReadExcelPOI.class" afterPath="$PROJECT_DIR$/target/test-classes/util/ReadExcelPOI.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/util/ReadTxt$H20121012.class" afterPath="$PROJECT_DIR$/target/test-classes/util/ReadTxt$H20121012.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/util/ReadTxt.class" afterPath="$PROJECT_DIR$/target/test-classes/util/ReadTxt.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appiumtest.iml" afterPath="$PROJECT_DIR$/appiumtest.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/DataProvider/DataProvid.java" afterPath="$PROJECT_DIR$/src/test/java/DataProvider/DataProvid.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/appium/AppiumDriverBase.java" afterPath="$PROJECT_DIR$/src/test/java/appium/AppiumDriverBase.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/appium/SampleTestCase.java" afterPath="$PROJECT_DIR$/src/test/java/appium/SampleTestCase.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/appium/SeleniumUpdateTest.java" afterPath="$PROJECT_DIR$/src/test/java/appium/SeleniumUpdateTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/util/AppiumServer.java" afterPath="$PROJECT_DIR$/src/test/java/util/AppiumServer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/util/InitDriver.java" afterPath="$PROJECT_DIR$/src/test/java/util/InitDriver.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/util/Initialize.java" afterPath="$PROJECT_DIR$/src/test/java/util/Initialize.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/util/Initialize1.java" afterPath="$PROJECT_DIR$/src/test/java/util/Initialize1.java" />
     </list>
     <ignored path="appiumtest.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -207,38 +39,32 @@
         <entry file="file://$PROJECT_DIR$/src/test/TestForAiXuePai1.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
-              <caret line="20" column="56" lean-forward="true" selection-start-line="20" selection-start-column="56" selection-end-line="20" selection-end-column="56" />
+              <caret line="20" column="56" lean-forward="false" selection-start-line="20" selection-start-column="56" selection-end-line="20" selection-end-column="56" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestForAiXuePaiGrid.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/TestForAiXuePaiGrid.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoginTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/AiXuepai/LoginTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="25" column="35" lean-forward="false" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Initialize.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Initialize.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/util/Initialize.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="28" column="68" lean-forward="true" selection-start-line="28" selection-start-column="68" selection-end-line="28" selection-end-column="68" />
-              <folding />
+            <state relative-caret-position="345">
+              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MutableCapabilities.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.6.0/selenium-api-3.6.0.jar!/org/openqa/selenium/MutableCapabilities.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="83" column="75" lean-forward="true" selection-start-line="83" selection-start-column="75" selection-end-line="83" selection-end-column="75" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -247,7 +73,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/util/Initialize1.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="20" column="73" lean-forward="true" selection-start-line="20" selection-start-column="73" selection-end-line="20" selection-end-column="73" />
+              <caret line="20" column="73" lean-forward="false" selection-start-line="20" selection-start-column="73" selection-end-line="20" selection-end-column="73" />
               <folding />
             </state>
           </provider>
@@ -256,28 +82,42 @@
       <file leaf-file-name="BaiBanRecordingHexagonUploadTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/AiXuepai/BaiBanRecordingHexagonUploadTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-366">
+            <state relative-caret-position="105">
               <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#3547#3548#0" expanded="false" />
+                <element signature="e#3576#3577#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
-              <caret line="18" column="46" lean-forward="true" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
+              <caret line="18" column="46" lean-forward="false" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AixuepaiTestForGrid.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/AixuepaiTestForGrid.java">
+      <file leaf-file-name="AlertPresent.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/util/AlertPresent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1258">
-              <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+            <state relative-caret-position="105">
+              <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InitDriver.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/util/InitDriver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -287,7 +127,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/util/AppiumServer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
-              <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+              <caret line="22" column="5" lean-forward="false" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -296,7 +136,7 @@
       <file leaf-file-name="DriverInitialize.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/util/DriverInitialize.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
+            <state relative-caret-position="480">
               <caret line="51" column="57" lean-forward="false" selection-start-line="51" selection-start-column="50" selection-end-line="51" selection-end-column="57" />
               <folding />
             </state>
@@ -335,7 +175,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/TestForGrid.xml" />
         <option value="$PROJECT_DIR$/src/test/TestForStudent.xml" />
         <option value="$PROJECT_DIR$/src/test/java/TestGrid/SelectTeacherTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/AiXuepai/LoginTest1.java" />
@@ -384,8 +223,9 @@
         <option value="$PROJECT_DIR$/src/test/java/appium/SampleTestCase.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/util/AppiumServer.java" />
-        <option value="$PROJECT_DIR$/src/test/java/util/Initialize.java" />
         <option value="$PROJECT_DIR$/src/test/TestForAiXuePai1.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/util/InitDriver.java" />
+        <option value="$PROJECT_DIR$/src/test/java/util/Initialize.java" />
       </list>
     </option>
   </component>
@@ -436,7 +276,6 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="7" />
     <option name="y" value="23" />
     <option name="width" value="1920" />
     <option name="height" value="989" />
@@ -457,6 +296,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -522,11 +363,35 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="appiumtest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="appiumtest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -1300,7 +1165,8 @@
       <workItem from="1505705194507" duration="460000" />
       <workItem from="1505871932274" duration="1604000" />
       <workItem from="1505972022349" duration="6147000" />
-      <workItem from="1506568325726" duration="1986000" />
+      <workItem from="1506568325726" duration="2578000" />
+      <workItem from="1506666463226" duration="925000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1486639257743</created>
@@ -1379,7 +1245,21 @@
       <option name="project" value="LOCAL" />
       <updated>1502414735758</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="add selenium Update Test">
+      <created>1506570619979</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1506570619979</updated>
+    </task>
+    <task id="LOCAL-00013" summary="add more clear Initialize Driver method">
+      <created>1506666832279</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1506666832279</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1415,7 +1295,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="636475000" />
+    <option name="totallyTimeSpent" value="637992000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1427,7 +1307,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="7" y="23" width="1920" height="989" extended-state="0" />
+    <frame x="0" y="23" width="1920" height="989" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1443,16 +1323,15 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25029105" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32906976" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18828933" sideWeight="0.49791667" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32906976" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3267442" sideWeight="0.49791667" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2835821" sideWeight="0.48333332" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1641791" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27324915" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27848774" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25602755" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27324915" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28115016" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
@@ -1460,6 +1339,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18828933" sideWeight="0.49791667" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1046875" sideWeight="0.50516987" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3267442" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1502,7 +1382,8 @@
     <MESSAGE value="add&#10;grid test" />
     <MESSAGE value="add&#10;appium_beta9" />
     <MESSAGE value="add selenium Update Test" />
-    <option name="LAST_COMMIT_MESSAGE" value="add selenium Update Test" />
+    <MESSAGE value="add more clear Initialize Driver method" />
+    <option name="LAST_COMMIT_MESSAGE" value="add more clear Initialize Driver method" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1515,27 +1396,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/iosTest/InitializeDriverRealDevice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/iosTest/InitializeDriverRealDevice1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/AiXuePaiTestForTestng/BaiBanAdd_ManageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="802">
-          <caret line="79" column="38" lean-forward="false" selection-start-line="79" selection-start-column="38" selection-end-line="79" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/DataProvider/DataProvid.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -1610,7 +1470,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="47">
           <caret line="24" column="7" lean-forward="false" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="91" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1618,7 +1477,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1626,7 +1484,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1634,7 +1491,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1642,7 +1498,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="35" column="17" lean-forward="false" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1657,7 +1512,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1672,7 +1526,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1680,7 +1533,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1688,7 +1540,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1696,11 +1547,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#4756#4757#0" expanded="false" />
-            <element signature="e#4785#4786#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1708,9 +1554,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1718,9 +1561,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1728,9 +1568,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1738,9 +1575,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1748,7 +1582,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="32" column="35" lean-forward="false" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1756,7 +1589,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1764,7 +1596,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1635">
           <caret line="121" column="13" lean-forward="false" selection-start-line="121" selection-start-column="13" selection-end-line="121" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1772,7 +1603,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1380">
           <caret line="116" column="40" lean-forward="false" selection-start-line="116" selection-start-column="40" selection-end-line="116" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1780,7 +1610,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="14" column="49" lean-forward="false" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1788,7 +1617,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
           <caret line="48" column="53" lean-forward="false" selection-start-line="48" selection-start-column="53" selection-end-line="48" selection-end-column="53" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1796,12 +1624,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="570">
           <caret line="50" column="46" lean-forward="false" selection-start-line="50" selection-start-column="46" selection-end-line="50" selection-end-column="46" />
-          <folding>
-            <element signature="e#1261#1262#0" expanded="false" />
-            <element signature="e#1344#1345#0" expanded="false" />
-            <element signature="e#1475#1476#0" expanded="false" />
-            <element signature="e#1558#1559#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1809,7 +1631,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1817,9 +1638,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="35" column="16" lean-forward="false" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1827,7 +1645,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="789">
           <caret line="77" column="9" lean-forward="false" selection-start-line="77" selection-start-column="9" selection-end-line="77" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1865,24 +1682,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/AixuepaiTestForGrid.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1258">
+        <state relative-caret-position="60">
           <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/util/DriverInitialize.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="51" column="57" lean-forward="false" selection-start-line="51" selection-start-column="50" selection-end-line="51" selection-end-column="57" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/TestForAiXuePai1.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="20" column="56" lean-forward="true" selection-start-line="20" selection-start-column="56" selection-end-line="20" selection-end-column="56" />
+          <caret line="20" column="56" lean-forward="false" selection-start-line="20" selection-start-column="56" selection-end-line="20" selection-end-column="56" />
           <folding />
         </state>
       </provider>
@@ -1890,15 +1701,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/util/AppiumServer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
-          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/util/Initialize.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="28" column="68" lean-forward="true" selection-start-line="28" selection-start-column="68" selection-end-line="28" selection-end-column="68" />
+          <caret line="22" column="5" lean-forward="false" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -1906,24 +1709,72 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/util/Initialize1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="20" column="73" lean-forward="true" selection-start-line="20" selection-start-column="73" selection-end-line="20" selection-end-column="73" />
+          <caret line="20" column="73" lean-forward="false" selection-start-line="20" selection-start-column="73" selection-end-line="20" selection-end-column="73" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/AiXuepai/BaiBanRecordingHexagonUploadTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-366">
+        <state relative-caret-position="105">
           <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#3547#3548#0" expanded="false" />
+            <element signature="e#3576#3577#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="18" column="46" lean-forward="true" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
+          <caret line="18" column="46" lean-forward="false" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/util/AlertPresent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/util/DriverInitialize.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="51" column="57" lean-forward="false" selection-start-line="51" selection-start-column="50" selection-end-line="51" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.6.0/selenium-api-3.6.0.jar!/org/openqa/selenium/MutableCapabilities.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="83" column="75" lean-forward="true" selection-start-line="83" selection-start-column="75" selection-end-line="83" selection-end-column="75" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/util/InitDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/util/Initialize.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
