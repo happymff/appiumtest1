@@ -1,20 +1,17 @@
 package appium;
 
 
-import io.appium.java_client.PerformsTouchActions;
-import io.appium.java_client.TouchAction;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import util.AlertPresent;
-import util.HandleJS;
 import util.IsElementPresent;
 
 import java.util.Set;
@@ -22,14 +19,14 @@ import java.util.Set;
 /**
  * Created by mengfeifei on 2016/12/29.
  */
-public class SeleniumTest {
+public class SeleniumTest_FireFox {
     WebDriver driver;
 
     @BeforeMethod
     public void setUp() throws Exception {
 
-        System.setProperty("webdriver.chrome.driver", "/Users/mff/Desktop/workspace/chromedriver");
-        driver = new ChromeDriver();
+        System.setProperty("webdriver.gecko.driver", "/Users/mff/Downloads/geckodriver");
+        driver = new FirefoxDriver();
     }
 
     //@Test(description = "注册", dataProvider = "SeleniumTest", dataProviderClass = DataProvid.class)
@@ -37,27 +34,12 @@ public class SeleniumTest {
     //public void testRegister(String username, String pwd, String realname, String classNum) throws Exception {
     public void testRegister() throws Exception {
         driver.get("http://school.etiantian.com/dl910sxta/");
-        String sxWindow = driver.getWindowHandle();
         driver.findElement(By.id("username")).clear();
-        driver.findElement(By.id("username")).sendKeys("爱学派C");
+        driver.findElement(By.id("username")).sendKeys("songyh");
         driver.findElement(By.id("password")).clear();
-        driver.findElement(By.id("password")).sendKeys("1111");
-        Thread.sleep(2000);
-        //判断当前的window是否是sx的页面，不是就进行切换
-        if (!(driver.getWindowHandle().equals(sxWindow))){
-            driver.switchTo().window(sxWindow);
-        }
+        driver.findElement(By.id("password")).sendKeys("aaa111");
         driver.findElement(By.linkText("登　录")).click();
         Thread.sleep(3000);
-        JavascriptExecutor js = (JavascriptExecutor) driver;
-        //用JS实现对webcode是js的页面的元素，或页面的按钮
-        try {
-            WebElement webElement = driver.findElement(By.id("showPwdPrompt")).findElement(By.className("ico32"));
-            js.executeScript("arguments[0].click();", webElement);
-        }catch (Exception e){
-            e.printStackTrace();
-        }
-        Thread.sleep(5000);
         driver.findElement(By.linkText("更多应用")).click();
         String win1 = driver.getWindowHandle();
         driver.findElement(By.linkText("平台管理")).click();

@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 62.397 sec <<< FAILURE! - in TestSuite
+setUp(AiXuepai.BaiBanRecordingTriangleTest)  Time elapsed: 58.327 sec  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Unable to create new remote session. desired capabilities = Capabilities [{appPackage=com.etiantian.pclass, platformVersion=5.0.1, browserName=, unicodeKeyboard=True, platformName=Android, deviceName=89OJW89L99999999, resetKeyboard=True}], required capabilities = Capabilities [{}]
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'MengfeifeideMac-Mini.local', ip: '10.20.30.108', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '1.8.0_121'
+Driver info: driver.version: AndroidDriver
+	at AiXuepai.BaiBanRecordingTriangleTest.setUp(BaiBanRecordingTriangleTest.java:38)
+
